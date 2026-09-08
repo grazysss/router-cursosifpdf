@@ -1,0 +1,18 @@
+img {
+    margin: 24px 24px;
+    width: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* nav link {
+    width: 20px;
+    background-color: 20px;
+} */
+
+.informatica, .alimentos, .apicultura {
+    margin: 24px;
+}

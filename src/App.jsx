@@ -4,10 +4,13 @@ import Inicio from './pages/Inicio'
 import Informatica from './pages/Informatica'
 import Alimentos from './pages/Alimentos'
 import Apicultura from './pages/Apicultura'
+import logo from './assets/logo.jpg'
+import './App.css'
 
 function App() {
   return (
     <div>
+      <img src={logo} alt="LOGO IFPDF" />
       <nav>
         <Link to="/">Início</Link>
         <Link to="/informatica">Informática</Link>
@@ -15,13 +18,13 @@ function App() {
         <Link to="/apicultura">Apicultura</Link>
       </nav>
 
-      <Routes>
+    <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/informatica" element={<Informatica />} />
         <Route path="/alimentos" element={<Alimentos />} />
         <Route path="/apicultura" element={<Apicultura />} />
       </Routes>
-
+  
     </div>
   )
 }
