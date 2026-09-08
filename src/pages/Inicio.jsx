@@ -1,8 +1,7 @@
 function Inicio() {
     return (
         <div className="inicio">
-            <img src="./assets/logo.jpg" alt="" />
-            <h1>AAAAAAAA</h1>
+            <h1>AAAAAAAAAA</h1>    
         </div>
     )
 }
