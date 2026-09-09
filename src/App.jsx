@@ -4,18 +4,19 @@ import Inicio from './pages/Inicio'
 import Informatica from './pages/Informatica'
 import Alimentos from './pages/Alimentos'
 import Apicultura from './pages/Apicultura'
-import logo from './assets/logo.jpg'
+import logo from './assets/logo.png'
 import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
+      <div className='header'>
       <img src={logo} alt="LOGO IFPDF" />
       <nav>
-        <Link to="/">Início</Link>
-        <Link to="/informatica">Informática</Link>
-        <Link to="/alimentos">Alimentos</Link>
-        <Link to="/apicultura">Apicultura</Link>
+        <Link to="/" className='a'>Início</Link>
+        <Link to="/informatica" className='a'>Informática</Link>
+        <Link to="/alimentos" className='a'>Alimentos</Link>
+        <Link to="/apicultura" className='a'>Apicultura</Link>
       </nav>
 
     <Routes>
@@ -24,7 +25,8 @@ function App() {
         <Route path="/alimentos" element={<Alimentos />} />
         <Route path="/apicultura" element={<Apicultura />} />
       </Routes>
-  
+
+      </div>
     </div>
   )
 }
