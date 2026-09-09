@@ -4,8 +4,10 @@ import Inicio from './pages/Inicio'
 import Informatica from './pages/Informatica'
 import Alimentos from './pages/Alimentos'
 import Apicultura from './pages/Apicultura'
+import NaoEncontrada from './pages/NaoEncontrada'
 import logo from './assets/logo.png'
 import './App.css'
+import NaoEncontrada from './pages/NaoEncontrada'
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path="/informatica" element={<Informatica />} />
         <Route path="/alimentos" element={<Alimentos />} />
         <Route path="/apicultura" element={<Apicultura />} />
+        <Route path="*" element={<NaoEncontrada />} />
       </Routes>
 
       </div>

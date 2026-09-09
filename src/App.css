@@ -43,10 +43,12 @@ nav {
 }
 
 .tec {
+    text-align: center;
     margin: 32px 24px 0;
 }
 
 h1 {
+    text-align: center;
     color: rgb(75, 195, 75);
     margin: 4px 24px 0;
     font-size: 42px;
@@ -54,5 +56,6 @@ h1 {
 }
 
 .info {
-    margin: 8px 24px;
+    text-align: center;
+    margin: 8px;
 }
