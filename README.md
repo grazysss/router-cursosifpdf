@@ -1,4 +1,3 @@
-<img width="1533" height="820" alt="inicio" src="https://github.com/user-attachments/assets/6718e193-113d-459b-ba71-46d2438cea40" />
 # 📚 Site dos Cursos — IFRN Campus Pau dos Ferros
 
 Projeto desenvolvido para a disciplina de **Programação para Internet**, como exercício de aprendizagem de navegação entre páginas utilizando **React Router**.
