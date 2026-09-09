@@ -1,16 +1,68 @@
-# React + Vite
+# 📚 Site dos Cursos — IFRN Campus Pau dos Ferros
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Projeto desenvolvido para a disciplina de **Programação para Internet**, como exercício de aprendizagem de navegação entre páginas utilizando **React Router**.
 
-Currently, two official plugins are available:
+O site apresenta informações sobre o **IFRN Campus Pau dos Ferros** e seus principais cursos técnicos integrados ao Ensino Médio: Informática, Alimentos e Apicultura.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Objetivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Construir um site em React com navegação entre diferentes páginas utilizando o **React Router**, permitindo que o usuário conheça os cursos oferecidos pelo Campus Pau dos Ferros.
 
-## Expanding the Oxlint configuration
+O projeto também possui uma página personalizada para endereços que não existem.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- Vite
+- JavaScript
+- React Router
+- HTML
+- CSS
+
+---
+
+## 📄 Páginas do projeto
+
+### 🏠 Início
+
+Apresenta informações sobre o **IFRN Campus Pau dos Ferros**, sua localização, cursos oferecidos e sua importância para o desenvolvimento da região do Alto Oeste Potiguar.
+
+### 💻 Informática
+
+Apresenta informações sobre o curso Técnico em Informática, incluindo suas principais áreas, como:
+
+- Programação
+- Banco de Dados
+- Desenvolvimento Web
+- Redes de Computadores
+
+### 🍎 Alimentos
+
+Apresenta informações sobre o curso Técnico em Alimentos e suas principais áreas:
+
+- Produção de Alimentos
+- Controle de Qualidade
+- Segurança dos Alimentos
+- Indústria Alimentícia
+
+### 🐝 Apicultura
+
+Apresenta informações sobre o curso Técnico em Apicultura e suas principais áreas:
+
+- Manejo de Abelhas
+- Produção de Mel
+- Produtos Apícolas
+- Produção Sustentável
+
+### ❌ Página não encontrada — 404
+
+Possui uma página personalizada para quando o usuário acessa uma URL que não existe no site.
+
+A página é exibida através de uma rota curinga do React Router:
+
+```jsx
+<Route path="*" element={<NaoEncontrada />} />

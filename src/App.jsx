@@ -7,7 +7,6 @@ import Apicultura from './pages/Apicultura'
 import NaoEncontrada from './pages/NaoEncontrada'
 import logo from './assets/logo.png'
 import './App.css'
-import NaoEncontrada from './pages/NaoEncontrada'
 
 function App() {
   return (
